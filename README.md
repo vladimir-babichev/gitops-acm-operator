@@ -32,7 +32,7 @@
 1. ACM deploys application to the respective environment
 1. Pipelines polls ACM to validate status of deployment
 1. Pipeline executes tests against environment
-1. Once deployment succedded and user confirmation required to proceed with deployment into uppper environments
+1. Once deployment succedded and user confirmation required to proceed with deployment into upper environments
 1. Pipeline repeats steps 3-7 for upper environments
 
 ### Mappings
