@@ -1,6 +1,0 @@
-dependencies:
-- name: acm-tenant-gitops
-  repository: file://../chart
-  version: 0.1.0
-digest: sha256:6bc23f471ff4de0c346a48631ab29cf0900f033ec81e4f21766a50816c4b7d5e
-generated: "2021-03-03T12:22:09.652694Z"
