@@ -7,14 +7,6 @@ acm-tenant-gitops:
       spec:
         type: Git
         pathname: https://github.com/vladimir-babichev/gitops-operating-platform.git
-      # externalSecret:
-      #   backendType: azureKeyVault
-      #   keyVaultName: p21d11105010003
-      #   data:
-      #     - key: ACM-GitHub-AccessToken
-      #       name: accessToken
-      #     - key: ACM-GitHub-User
-      #       name: user
     helm:
       spec:
         type: HelmRepo
