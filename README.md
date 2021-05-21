@@ -1,5 +1,8 @@
 # ACM Operator repo
 
+## Repository modeling
+![Repo modelling](img/ACM-repository-modeling.png)
+
 ## What does it mean to onboard a Team?
 
 1. New `git` repo created
@@ -34,6 +37,7 @@
 1. Pipeline executes tests against environment
 1. Once deployment succedded and user confirmation required to proceed with deployment into upper environments
 1. Pipeline repeats steps 3-7 for upper environments
+![Delivery pipeline](img/ACM-delivery-pipeline.png)
 
 ### Mappings
 
