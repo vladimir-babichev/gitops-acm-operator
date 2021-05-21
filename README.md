@@ -42,7 +42,6 @@
 ### Mappings
 
 * Zone -> Cluster Namespace
-* Tenant -> Namespace
 
 ---
 
@@ -56,20 +55,10 @@ oc label subscriptions.apps.open-cluster-management.io the_subscription_name rec
 
 ## Open questions
 
-1. How to know latest reconcile state?
-1. How to know/detect reconcile errors?
-1. How to force reconcile from UI?
-1. How to detect git checkout errors?
-1. Onboard applications already deployed to the cluster
-1. Application deployment across multiple environments hosted on the same cluster
-1. Strategy for multi-cloud
-    * Central ACM to rule them all
-    * ACM per cloud provider
-1. Strategy for nonprod and prod environments:
-    * Central ACM to rule them all
-    * ACM per environment
-1. Monitoring / alerting
+1. Multitenancy - still not very well defined
+1. Monitoring of GitOps engine events (not supported_)
 1. Recovery strategy
+1. Granting `subscription-admin` privileges to certain namespaces only
 
 ## Known issues
 
