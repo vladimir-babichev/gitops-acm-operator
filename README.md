@@ -1,5 +1,21 @@
 # ACM Operator repository
 
+* [ACM Operator repository](#acm-operator-repository)
+  * [ACM Features](#acm-features)
+  * [Repository modeling](#repository-modeling)
+  * [What does it mean to onboard a Team?](#what-does-it-mean-to-onboard-a-team)
+  * [Application lifecycle](#application-lifecycle)
+    * [Creating a new application](#creating-a-new-application)
+    * [Deploy an existing application](#deploy-an-existing-application)
+    * [Mappings](#mappings)
+  * [Tips](#tips)
+    * [Force subscription reconcile](#force-subscription-reconcile)
+  * [Open questions](#open-questions)
+  * [Known issues](#known-issues)
+    * [UI](#ui)
+    * [Reconcile errors](#reconcile-errors)
+    * [Subscription pod failures](#subscription-pod-failures)
+
 ## ACM Features
 
 ![ACM diagram](img/GitOps-tools-ACM.png)
