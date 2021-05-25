@@ -1,6 +1,17 @@
-# ACM Operator repo
+# ACM Operator repository
+
+## ACM Features
+
+![ACM diagram](img/GitOps-tools-ACM.png)
+
+1. ACM Hub is the only resource that needs access to Git/Helm repos
+1. ACM Agent initiates connections to the Hub, not vice versa
+1. ACM Agent doesn't need access to Git/Helm repos
+1. Built-in policy engine
+1. Build-in observability platform
 
 ## Repository modeling
+
 ![Repo modelling](img/ACM-repository-modeling.png)
 
 ## What does it mean to onboard a Team?
