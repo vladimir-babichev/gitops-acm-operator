@@ -11,3 +11,16 @@ acm-tenant-gitops:
       spec:
         type: HelmRepo
         pathname: https://finastra-ghe.github.io/acm-poc-system-charts/
+  placementRules:
+    alpha-westeu-1:
+      clusterSelector:
+        matchLabels:
+          zone: alpha-westeu-1
+    alpha-westeu-3:
+      clusterSelector:
+        matchLabels:
+          zone: alpha-westeu-3
+    dev-westeu-1:
+      clusterSelector:
+        matchLabels:
+          zone: dev-westeu-1
